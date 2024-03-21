@@ -42,8 +42,6 @@ fun main() {
     formacao.matricular(usuario3)
 
     // Imprimir cadastro na tela
-    
-    
     for (usuario in formacao.inscritos) {
         println("${usuario.nome} - ${usuario.nivel}")}
         println()
